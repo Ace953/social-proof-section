@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;300;700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    font-family: Spartan;
+    background-image: url(../images/bg-pattern-top-desktop.svg), url(../images/bg-pattern-bottom-desktop.svg);
+    background-position: top left, bottom right;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 35%, 65%;
+    width: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    padding: 3rem;
+    min-width: 360px;
+    margin: auto;
+}
+
+.reviews{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 42px;
+    color: hsl(300, 43%, 22%);
+    line-height: 1em;
+}
+
+.left-section{
+    max-width: 30%;
+}
+
+.text{
+    font-size: 13px;
+    color: hsl(303, 10%, 53%);
+    line-height: 1.5em;
+}
+
+.rate{
+    font-size: 14px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.first-block{
+    transform: translateX(-40px);
+}
+
+.third-block{
+    transform: translateX(40px);
+}
+
+.first-block, .second-block, .third-block{
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    /* max-width: max-content; */
+    padding: 15px 50px 15px 30px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.yellow, .edges, .five{
+    margin-right: 30px;
+}
+                                                    /* BOTTOM PART */
+
+.module{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    margin-left: 5.5vw;
+    margin-right: 2vw;
+    /* max-width: 80%; */
+}
+
+.position, .user, .client{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.smith, .roberts, .wallace{
+    border-radius: 100%;
+    width: 40px;
+    margin-right: 20px;
+}
+
+.colton-smith, .irene-roberts, .anne-wallace{
+    background-color: hsl(300, 43%, 22%);
+    background-size: 10rem;
+    border-radius: 7px;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    margin-right: 20px;
+    max-width: 30%;
+}
+
+.irene-roberts{
+    transform: translateY(20px);
+}
+
+.anne-wallace{
+    transform: translateY(40px);
+}
+
+.information{
+    color: white;
+    line-height: 1.5em;
+}
+
+.style{
+    color: hsl(333, 80%, 67%);
+    font-weight: normal;
+}
+
+.id{
+    color: white;
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 768px) {
+
+    .left-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .main h1{
+        text-align: center;
+    }
+
+    .text p{
+        text-align: center;
+    }
+
+    .left-section, .text{
+        max-width: 80%;
+    }
+
+    .reviews{
+        flex-direction: column;
+    }
+
+    .first-block, .second-block, .third-block{
+        flex-direction: column;
+        transform: none;
+        padding: 15px 14px 15px 14px;
+    }
+
+    .yellow, .edges, .five{
+        margin-bottom: 10px;
+        white-space: nowrap;
+    }
+
+    .rate{
+        white-space: nowrap;
+    }
+
+    .module{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+
+    .colton-smith, .irene-roberts, .anne-wallace{
+        max-width: 100%;
+        margin: 0;
+    }
+}
+    
