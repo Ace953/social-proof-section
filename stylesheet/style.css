@@ -99,7 +99,7 @@ h1{
     background-color: hsl(300, 43%, 22%);
     background-size: 10rem;
     border-radius: 7px;
-    padding: 2.5rem 1rem 2.5rem 1rem;
+    padding: 1.5rem 1rem 1.8rem 1rem;
     margin-right: 20px;
     max-width: 30%;
 }
@@ -131,7 +131,7 @@ h1{
 .attribution {
     font-size: 11px;
     text-align: center;
-    margin-top: 60px;
+    margin-top: 56px;
 }
 
 .attribution a {
